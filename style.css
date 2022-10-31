@@ -697,12 +697,24 @@ color */
          transform: rotateZ(-45deg)!important;
         font-size: 25px !important;
     }
-
+.price{
+    text-align: center;
+}
+.variant_item {
+    width: 100%;
+    text-align: center;
+}
+.color_list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
     .btns {
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: flex-start !important;
+        justify-content: center !important;
         gap: 30px;
     }
 
@@ -756,6 +768,9 @@ color */
 }
 
 @media (max-width:1279px) {
+    .list .img img{
+        width: 100%;
+    }
     .variant_item_2 .btns p {
             font-size: 20px !important;
             text-transform: capitalize;
@@ -929,9 +944,15 @@ color */
         height: auto;
         object-fit: cover;
         margin: auto;
-        width: 70%;
+        width: 100%;
     }
+ .list .img_1 {
 
+     height: auto;
+     object-fit: cover;
+     margin: auto;
+     width: 80%!important;
+ }
     .list .info {
         width: 100%;
 
