@@ -218,9 +218,11 @@
     flex-direction: column;
 
 }
-.variant_item{
+
+.variant_item {
     width: 100%;
 }
+
 .price .title {
     font-size: 80px;
     color: #000000;
@@ -340,7 +342,7 @@ color */
 }
 
 .qty {
-    
+
     text-align: center;
     display: flex;
     align-items: center;
@@ -361,13 +363,14 @@ color */
     font-weight: 800;
 }
 
-.btn{
+.btn {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
 }
-.btns{
+
+.btns {
     width: 100%;
     display: flex;
     align-items: center;
@@ -375,12 +378,13 @@ color */
     gap: 30px;
 }
 
-.btns p{
-  font-size: 30px;
-  text-transform: capitalize;
-  border: 1px solid #333;
-  padding: 8px 10px;
+.btns p {
+    font-size: 30px;
+    text-transform: capitalize;
+    border: 1px solid #333;
+    padding: 8px 10px;
 }
+
 .btns p span {
     font-size: 30px;
     text-transform: capitalize;
@@ -571,7 +575,7 @@ color */
         width: 120px;
         text-align: center;
 
-        margin-top: 20px;
+
         cursor: pointer;
         transform: opacity 0.3;
     }
@@ -582,27 +586,7 @@ color */
         color: white;
     }
 
-    .qty_1_1 {
-        border: 1px solid rgb(102, 102, 102);
-        text-align: center;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        width: 95px;
-        height: 95px;
-        border-radius: 10px;
-        padding: 10px;
-    }
 
-    .qty_1_1 .qty_1 {
-        font-size: 18px;
-    }
-
-    .qty_1_1 .bold {
-        font-size: 26px;
-        font-weight: 800;
-    }
 
     .section_1 {
         margin-top: 77px;
@@ -673,15 +657,52 @@ color */
         top: 200px;
         right: -550px !important;
     }
+
+    .off {
+
+        left: -198px !important;
+        top: 32px !important;
+
+        font-size: 25px !important;
+    }
+
+    .btns {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        gap: 30px;
+    }
 }
 
 @media (max-width:1279px) {
+    .cta {
+
+        padding: 5px 0px;
+
+    }
+
+    .off {
+
+        left: -155px;
+        top: 78px;
+
+        font-size: 25px;
+    }
+
     .btns p {
         font-size: 20px;
         text-transform: capitalize;
         border: 1px solid #333;
         padding: 3px 10px;
-        }
+    }
+
+    .btns p span {
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 900;
+    }
+
     .black {
 
         font-size: 200px;
@@ -709,6 +730,7 @@ color */
 
         margin-top: 0px;
     }
+
 
     .timer .timer_title .timer_content {
         font-size: 50px;
@@ -799,21 +821,29 @@ color */
         width: 100%;
 
     }
-.cta a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
+
+    .cta a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+
     .footer_content {
         height: 15vh;
         width: 100%;
 
     }
-        .list_icon a i {
-            color: #ffffff;
-    
-            font-size: 20px;
-        }
+
+    .list_icon a i {
+        color: #ffffff;
+
+        font-size: 20px;
+    }
+
+    .btns p {
+        font-size: 20px;
+        text-transform: capitalize;
+        border: 1px solid #333;
+        padding: 1px 10px;
+    }
 }
-
-

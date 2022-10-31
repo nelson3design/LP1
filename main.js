@@ -10,7 +10,7 @@ setInterval(function () {
     var hoje = 23
     
     var dayOfMonth = data.getDate();
-    var day = 30 - dayOfMonth
+    var day = 31 - dayOfMonth
     day = zero(day)
     
     var month = data.getMonth() + 1
