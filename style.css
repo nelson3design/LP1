@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
+body {
+    font-family: 'Bebas Neue', cursive !important;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
+
+}
+
+#rd-column-joq3m2nz>div {
+
+    padding: 0px !important;
+
+}
+
+#rd-box-joq3m2o0 {
+    display: none !important;
+}
+
+#rd-row-joq3m2ny {
+    max-width: 100% !important;
 }
 
 .page_base {
@@ -327,7 +345,7 @@ color */
 }
 
 .cta {
-    background-color: #00BB13;
+    background-color: #000000;
 
     padding: 10px 0px;
     width: 180px;
@@ -478,7 +496,7 @@ color */
 }
 
 .variant_item_2 .cta {
-    background-color: #00BB13;
+    background-color: #000000;
 
     padding: 5px 0px;
     width: 120px;
@@ -618,7 +636,7 @@ color */
     }
 
     .info_1 .cta {
-        background-color: #00BB13;
+        background-color: #000000;
 
         padding: 5px 0px;
         width: 120px;
