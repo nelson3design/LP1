@@ -546,6 +546,9 @@ color */
 .desconto_item {
    margin: auto;
    padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .desconto_item p{
  font-size: 22px;
