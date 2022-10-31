@@ -214,6 +214,7 @@ color: #ffffff;
     height: auto;
     object-fit: cover;
     margin: auto;
+    padding: 10px 0;
 }
 
 .list .info {
