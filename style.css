@@ -494,10 +494,10 @@ color */
 }
 
 .variant_item_2 .btns p {
-    font-size: 22px!important;
+    font-size: 17px!important;
     text-transform: capitalize;
     border: 1px solid #333;
-    padding: 3px 8px;
+    padding: 6px 8px;
 }
 
 @media (max-width: 1400px){
